@@ -1,231 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Poppins - google font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Oswald - google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaulDesign | Assignment 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
     <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
 
-    <title>SaulDesign | Ostad Assignment 1</title>
-  </head>
-  <body>
-    <section class="navbar section">
-      <div class="navbar-container container">
-        <div class="navbar-logo">
-          <a href="#">
-            <h2>SaulDesign</h2>
-          </a>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <section class="home section">
+        <div class="nav-container container">
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-link"><h1>SaulDesign</h1></a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="option-list"><a href="#" class="item-link">Home</a></li>
+                    <li class="option-list"><a href="#" class="item-link">About Me</a></li>
+                    <li class="option-list"><a href="#" class="item-link">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navmenu">
-          <ul class="main-menu">
-            <li class="list-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="list-item">
-              <a href="#about" class="nav-link">About Me</a>
-            </li>
-            <li class="list-item"><a href="#" class="nav-link">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </div>
     </section>
+    <hr/>
+    <!-- Header Section End -->
 
-    <section class="hero section">
-      <div class="hero-container container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <h2>CREATIVE UI <span class="designer">DESIGNER</span></h2>
-          </div>
-          <div class="hero-buttons">
-            <button class="h-btn1 h-btn"><h3>Hire Me</h3></button>
-            <button class="h-btn2 h-btn">
-              <h3>Download CV</h3>
-              <i class="bi bi-download"></i>
-            </button>
-          </div>
+    <!-- Hero Start -->
+     <section class="hero section">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>CREATIVE UI <span class="designer">DESIGNER</span></h2>
+                </div>
+                <div class="hero-button">
+                    <button class="hm-btn h-btn"><h4>Hire Me</h4></button>
+                    <button class="dn-btn h-btn">
+                        <h4>Download CV</h4>
+                        <i class="bi bi-download"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/Home-Image.png" alt="Home Image">
+            </div>
         </div>
-        <div class="hero-image">
-          <img src="assets/images/hero-image.png" alt="Hero-Image" />
+     </section>
+    <!-- Hero Section End -->
+
+    <!-- About Me Page Start -->
+    <section class="about section id="about">
+        <div class="about-container container">
+            <div class="about-content">
+                <h2>About <span class="me">Me</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus eveniet pariatur amet praesentium sunt deleniti quis veniam sed optio quod voluptas illum nisi molestiae doloremque, quas magni odit? Magni ipsum consectetur excepturi maiores molestias earum doloribus eum? Hello... <span class="read-more">Read More</span></p>
+            </div>
+            <div class="about-image">
+                <img src="./img/About-Image.png" alt="About Image">
+            </div>
         </div>
-      </div>
     </section>
+    <!-- About Me Page End -->
 
-    <section class="about section" id="about">
-      <div class="about-container container">
-        <div class="about-content">
-          <h2>About <span class="me">me</span></h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sed
-            eius? Commodi eum eos voluptatum inventore, aut quos laudantium est
-            sit magnam temporibus ipsum assumenda voluptates nihil dolorem
-            necessitatibus vero sapiente modi fuga veniam blanditiis, quae illo
-            odit! Eaque... <span class="r-m">Read more</span>
-          </p>
-        </div>
-        <div class="about-image">
-          <img src="assets/images/about-image.png" alt="" />
-        </div>
-      </div>
-    </section>
+    <!-- Project Page Start -->
+     <section class="project section">
+        <div class="project-container container">
+            <div class="project-content">
+              <div class="project-text">
+                <h2>My Recent <span class="work">Works</span></h2>
+              </div>
+              <div class="project-buttons">
+                <button class="project-button project-button1">All</button>
+                <button class="project-button project-button2">UI</button>
+                <button class="project-button project-button3">UX</button>
+                <button class="project-button project-button4">Web Design</button>
+              </div>
+            </div>
+            <div class="project-cards-container">
+              <div class="project-card project-card-1">
+                <img src="./img/Portfolio-Image 1.png" alt="Project Image 1"/>
+              </div>
+              <div class="project-card project-card-2">
+                <img src="./img/Portfolio-Image 2.png" alt="Project Image 2"/>
+              </div>
+              <div class="project-card project-card-3">
+                <img src="./img/Portfolio-Image 3.png" alt="Project Image 3"/>
+              </div>
+            </div>
+          </div>
+     </section>
+    <!-- Project Page End -->
 
-    <section class="portfolio section">
-      <div class="portfolio-container container">
-        <div class="portfolio-content">
-          <div class="portfolio-text">
-            <h2>My recent <span class="wrk">works</span></h2>
-          </div>
-          <div class="portfolio-buttons">
-            <button class="portfolio-button portfolio-button1">All</button>
-            <button class="portfolio-button portfolio-button2">UI</button>
-            <button class="portfolio-button portfolio-button3">UX</button>
-            <button class="portfolio-button portfolio-button4">
-              Web Design
-            </button>
-          </div>
-        </div>
-        <div class="portfolio-cards-container">
-          <div class="portfolio-card portfolio-card1">
-            <img src="assets/images/portfolio-1.png" alt="Portfolio image" />
-          </div>
-          <div class="portfolio-card portfolio-card2">
-            <img src="assets/images/portfolio-2.png" alt="Portfolio image" />
-          </div>
-          <div class="portfolio-card portfolio-card3">
-            <img src="assets/images/portfolio-3.png" alt="Portfolio image" />
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- Contact Page Start -->
     <section class="contact section">
-      <div class="contact-container container">
-        <div class="contact-content">
-          <div class="contact-text">
-            <h2>Got a project in <br /><span class="mind">mind?</span></h2>
+        <div class="contact-container container">
+          <div class="contact-content">
+            <div class="contact-text">
+              <h2>Got a Project in <br/><span class="mind">Mind?</span></h2>
+            </div>
+            <div class="contact-image">
+              <img src="./img/contact-image.png" alt="Contact Image" />
+            </div>
           </div>
-          <div class="contact-image">
-            <img src="assets/images/contact-image.png" alt="cintact image" />
+          <div class="contact-form">
+            <form action="#">
+              <div class="name-email">
+                <div class="name">
+                  <label for="name">Your name</label>
+                  <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="email">
+                  <label for="email">Your email</label>
+                  <input type="email" name="email" id="email" placeholder="Email"/>
+                </div>
+              </div>
+              <div class="comment-area">
+                <div class="textarea">
+                  <label for="comment">Your Message</label>
+                  <textarea name="comment" id="comment" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="submit">
+                <div class="button">
+                  <button type="submit"><h3>Send Message <i class="bi bi-send"></i></h3></button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="contact-form">
-          <form action="#">
-            <div class="name-email">
-              <div class="name">
-                <label for="name">Your name</label>
-                <input type="text" name="name" id="name" placeholder="Name" />
-              </div>
-              <div class="email">
-                <label for="email">Your email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                />
-              </div>
-            </div>
-            <div class="comment-area">
-              <div class="textarea">
-                <label for="comment">Your Message</label>
-                <textarea
-                  name="comment"
-                  id="comment"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-            </div>
-            <div class="submit">
-              <div class="button">
-                <button type="submit">
-                  <h3>Send message <i class="bi bi-send"></i></h3>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+      </section>
+    <!-- Contact Page End -->
 
+
+    <!-- Footer Section Start -->
     <footer class="section">
-      <div class="footer-container container">
-        <div class="footer-content">
-          <div class="footer-menu">
-            <ul class="footer-list">
-              <li class="footer-item">
-                <a href="#" class="footer-link"
-                  ><i class="bi bi-house-door"></i>
-                  <h3>Home</h3></a
-                >
-              </li>
-              <li class="footer-item">
-                <a href="#about" class="footer-link"
-                  ><i class="bi bi-person"></i>
-                  <h3>About Me</h3></a
-                >
-              </li>
-              <li class="footer-item">
-                <a href="#" class="footer-link"
-                  ><i class="bi bi-telephone"></i>
-                  <h3>Contact</h3></a
-                >
-              </li>
-            </ul>
+        <div class="footer-container container">
+          <div class="footer-content">
+            <div class="footer-menu">
+              <ul class="footer-list">
+                <li class="footer-item"><a href="#" class="footer-link"><i class="bi bi-house-door"></i><h3>Home</h3></a></li>
+                <li class="footer-item"><a href="#about" class="footer-link"><i class="bi bi-person"></i><h3>About Me</h3></a></li>
+                <li class="footer-item"><a href="#" class="footer-link"><i class="bi bi-telephone"></i><h3>Contact</h3></a></li>
+              </ul>
+            </div>
+            <div class="footer-icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-youtube"></i>
+            </div>
           </div>
-          <div class="footer-icons">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-youtube"></i>
+          <div class="footertspp">
+            <a href="#">Terms of Services</a>
+            -
+            <a href="#"> Privacy Policy</a>
           </div>
         </div>
-        <div class="footertspp">
-          <a href="#">Taerms of services </a>
-          -
-          <a href="#"> Privacy policy</a>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".main-menu");
-
-        hamburger.addEventListener("click", () => {
-          navMenu.classList.toggle("active");
-          hamburger.classList.toggle("active");
-        });
-
-        // Close menu when clicking a link
-        document.querySelectorAll(".nav-link").forEach((link) => {
-          link.addEventListener("click", () => {
-            navMenu.classList.remove("active");
-            hamburger.classList.remove("active");
-          });
-        });
-      });
-    </script>
-  </body>
+      </footer>
+    <!-- Footer Section End -->
+</body>
 </html>
