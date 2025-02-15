@@ -418,7 +418,7 @@ body{
   }
   
   .footer-link h3:hover {
-    color: #00adb5;
+    color: var(--primary_color);
   }
   
   .footer-icons {
@@ -443,15 +443,16 @@ body{
     background-color: #393e46d2;
   }
   
-  .footer-tc {
+  .footertspp {
     margin-top: 50px;
     text-align: right;
     width: 100%;
     display: block;
   }
   
-  .footer-tc a {
+  .footertspp a {
     text-decoration: none;
     color: #eeeeee;
   }
+  
 /* Footer Section End   */
