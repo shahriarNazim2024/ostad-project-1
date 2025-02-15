@@ -1,0 +1,184 @@
+/* Laptop */
+@media screen and (max-width: 1025px) {
+    .hero-content .hero-text h2 {
+      font-size: 70px;
+    }
+  
+    .hero-image img {
+      width: 300px;
+    }
+  
+    .about-image img {
+      width: 500px;
+    }
+  
+    .contact-image img {
+      width: 200px;
+    }
+  
+    .contact-text h2 {
+      font-size: 54px;
+    }
+  }
+  
+  /* Tablet */
+  
+  @media screen and (max-width: 768px) {
+    .hero-content .hero-text h2 {
+      font-size: 50px;
+    }
+  
+    .hero-image img {
+      width: 200px;
+    }
+  
+    .hero-buttons button.h-btn h3 {
+      font-size: 14px;
+    }
+  
+    .hero-buttons button.h-btn i {
+      font-size: 14px;
+    }
+  
+    .hero-buttons button.h-btn {
+      padding: 10px 20px;
+    }
+  
+    .about-image img {
+      width: 300px;
+    }
+  
+    .about-content h2 {
+      font-size: 54px;
+    }
+  
+    .about-content p {
+      font-size: 14px;
+    }
+  
+    .portfolio-text h2 {
+      font-size: 54px;
+    }
+  
+    .portfolio-buttons button.portfolio-button {
+      font-size: 12px;
+    }
+  
+    .contact-text h2 {
+      font-size: 44px;
+    }
+  }
+  
+  /* Phone and lower */
+  
+  @media screen and (max-width: 545px) {
+    .hero-container {
+      flex-direction: column-reverse;
+      padding: 70px 20px;
+    }
+  
+    .hero-content {
+      gap: 35px;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    body {
+      position: relative;
+    }
+  
+    .main-menu {
+      flex-direction: column;
+      position: absolute;
+      background-color: #222831;
+      border-bottom: 1px solid #dddddd56;
+      width: 100%;
+      top: 77px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 200px;
+    }
+  
+    .main-menu {
+      display: none;
+    }
+  
+    .main-menu.active {
+      display: flex;
+    }
+  
+    body.no-scroll {
+      overflow: hidden;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .about-container {
+      flex-direction: column-reverse;
+      gap: 30px;
+      padding: 0px 20px 80px;
+    }
+  
+    .portfolio-container {
+      padding-bottom: 20px;
+    }
+  
+    .about-content {
+      margin: 0;
+    }
+  
+    .portfolio-card {
+      width: 320px;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+      padding-top: 0;
+    }
+  
+    .contact-content {
+      flex-direction: column-reverse;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  
+    .contact-text h2 {
+      font-size: 36px;
+    }
+  
+    .contact-image img {
+      width: 150px;
+    }
+  
+    .footer-content h3 {
+      font-size: 16px;
+    }
+  
+    .footer-menu .footer-list {
+      gap: 33px;
+    }
+  
+    .footert-tc {
+      text-align: center;
+    }
+  }
+  
