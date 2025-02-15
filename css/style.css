@@ -181,7 +181,7 @@ body{
 /* Project Section */
 .project {
     margin: 100px 0;
-    background-image: url(./img/BG-Project-Image.png);
+    background-image: url(../img/BG-Project-Image.png);
     /* background-attachment: fixed; */
     position: relative;
   }
@@ -358,7 +358,7 @@ body{
   .email {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; ata tomar css
+    align-items: flex-start;
     justify-content: center;
     width: 50%;
   }
@@ -443,14 +443,14 @@ body{
     background-color: #393e46d2;
   }
   
-  .footertspp {
+  .footer-tc {
     margin-top: 50px;
     text-align: right;
     width: 100%;
     display: block;
   }
   
-  .footertspp a {
+  .footer-tc a {
     text-decoration: none;
     color: #eeeeee;
   }
